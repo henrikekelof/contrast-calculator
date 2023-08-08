@@ -16,6 +16,15 @@ module.exports = {
       filename: 'index.html',
       template: './src/index.html',
       inject: 'body',
+      minify: {
+        collapseWhitespace: true,
+        keepClosingSlash: false,
+        removeComments: true,
+        removeRedundantAttributes: false, // do not remove type="text"
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+      },
     }),
   ],
   module: {
