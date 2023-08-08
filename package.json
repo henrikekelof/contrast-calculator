@@ -1,0 +1,35 @@
+{
+  "name": "contrast-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn webpack-dev-server --config ./webpack.config.js --mode=development",
+    "build": "yarn webpack --config ./webpack.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrikekelof/contrast-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrikekelof/contrast-calculator/issues"
+  },
+  "homepage": "https://github.com/henrikekelof/contrast-calculator#readme",
+  "dependencies": {
+    "colorjs.io": "^0.4.5",
+    "prettier": "3.0.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

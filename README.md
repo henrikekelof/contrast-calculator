@@ -1,1 +1,1 @@
-# contrast-calculator
+# Contrast calculator
